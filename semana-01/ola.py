@@ -1,6 +1,0 @@
-print("Thyago\nEstudando backend com Python")
-print("Thyago", "Estudando backend com Python", sep="\n")
-print(f"(12 + 8) * 3 = {(12 + 8) * 3}")
-print(f"17 / 4 = {17 / 4}")
-print(f"17 // 4 = {17 // 4}")
-print(f"17 % 4 = {17 % 4}")
