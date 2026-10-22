@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Dados e logs locais
+*.db
+*.log
+agenda.json
+tarefas.json
+
+# Editor
+.vscode/
