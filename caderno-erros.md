@@ -35,3 +35,15 @@ Autor: ThyagoToledo
 - Causa: O Python segue o padrao americano que usa ponto (.) para separar decimais. O float() nao reconhece a virgula.
 - Solucao: Tratei a string antes da conversao trocando virgula por ponto com .replace(',', '.').
 - Licao: No Brasil a maioria das pessoas digita decimal com virgula. Sempre que receber dados numericos do usuario preciso normalizar antes de converter para float.
+
+---
+
+## 16/10/2026 - Dia 03
+
+### Python - Divisao por zero (ZeroDivisionError)
+- Onde foi: semana-01/d03_operadores.py (Tabela de operacoes com a e b).
+- Erro: ZeroDivisionError: division by zero.
+- O que eu esperava: O exercicio pediu de proposito para passar b = 0 nos testes para observar a quebra.
+- Causa: Nao existe divisao por zero na matematica. Quando b vale 0, qualquer tentativa de divisao real (/), inteira (//) ou resto (%) lanca ZeroDivisionError e para o programa imediatamente.
+- Solucao: Anotei a ocorrencia do erro conforme solicitado pelo plano. No Dia 06 vamos implementar validacao de entrada antes do calculo.
+- Licao: Em qualquer endpoint ou logica de BackEnd que envolva calculo de divisao, nunca posso confiar cegamente que o denominador e maior que zero; a checagem previa e obrigatoria.

@@ -45,6 +45,8 @@ backend-estudos/
 |-- semana-01/                  # Fundamentos de Python e exercicios da Semana 1
 |   |-- d01_ambiente.py         # Dia 01: Cartao de visita, operacoes e formatacao
 |   |-- d02_perfil.py           # Dia 02: Variaveis, input, tipos e media
+|   |-- d03_operadores.py       # Dia 03: Operadores aritmeticos, comparacoes e logicos
+|   |-- d04_triagem.py          # Dia 04: Estruturas condicionais e triagem
 |   `-- d07_calculadora_final.py
 |-- semana-02/                  # Estruturas de dados, funcoes e POO
 |-- semana-03/                  # Modelagem e consultas SQL (pratica.sql)
