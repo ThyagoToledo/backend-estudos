@@ -13,6 +13,10 @@
   <img src="https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white" alt="Markdown" />
 </p>
 
+<p>
+  <img src="assets/banner.jpg" alt="Backend Estudos Banner" width="100%" />
+</p>
+
 </div>
 
 ---
@@ -38,6 +42,8 @@ backend-estudos/
 |-- .gitignore                  # Arquivos e diretorios ignorados pelo Git
 |-- README.MD                   # Documentacao principal do repositorio
 |-- caderno-erros.md            # Registro formal de falhas tecnicas e aprendizados
+|-- assets/                     # Recursos visuais e imagens do repositorio
+|   `-- banner.jpg              # Banner ilustrativo
 |-- Docs/                       # Fichas teoricas e documentacao complementar
 |   |-- api-futura.md
 |   |-- ficha-http.md
