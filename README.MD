@@ -46,7 +46,10 @@ backend-estudos/
 |   |-- d01_ambiente.py         # Dia 01: Cartao de visita, operacoes e formatacao
 |   |-- d02_perfil.py           # Dia 02: Variaveis, input, tipos e media
 |   |-- d03_operadores.py       # Dia 03: Operadores aritmeticos, comparacoes e logicos
-|   |-- d04_triagem.py          # Dia 04: Estruturas condicionais e triagem
+|   |-- d04_bissexto.py         # Dia 04: Exercicio N3 - Ano bissexto
+|   |-- d04_caixa.py            # Dia 04: Exercicio N4 - Simulador de caixa eletronico
+|   |-- d04_imc.py              # Dia 04: Exercicio N2 - Calculo e classificacao de IMC
+|   |-- d04_triagem.py          # Dia 04: Pratica principal - Triagem de tarefas
 |   `-- d07_calculadora_final.py
 |-- semana-02/                  # Estruturas de dados, funcoes e POO
 |-- semana-03/                  # Modelagem e consultas SQL (pratica.sql)

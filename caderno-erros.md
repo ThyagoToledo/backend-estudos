@@ -47,3 +47,15 @@ Autor: ThyagoToledo
 - Causa: Nao existe divisao por zero na matematica. Quando b vale 0, qualquer tentativa de divisao real (/), inteira (//) ou resto (%) lanca ZeroDivisionError e para o programa imediatamente.
 - Solucao: Anotei a ocorrencia do erro conforme solicitado pelo plano. No Dia 06 vamos implementar validacao de entrada antes do calculo.
 - Licao: Em qualquer endpoint ou logica de BackEnd que envolva calculo de divisao, nunca posso confiar cegamente que o denominador e maior que zero; a checagem previa e obrigatoria.
+
+---
+
+## 03/11/2026 - Dia 04
+
+### Python - Ordem das condicoes em if e elif
+- Onde foi: semana-01/d04_triagem.py (Logica de triagem de prioridades e prazos).
+- Erro: Um elif mais generico captura o fluxo antes de um elif mais especifico se a ordem for invertida.
+- O que eu esperava: Que a prioridade 1 com prazo <= 1 fosse marcada como urgente (fazer hoje), mas se prioridade 1 geral viesse antes, a condicao mais especifica nunca seria atingida.
+- Causa: O interpretador Python entra no primeiro bloco cuja expressao for verdadeira e pula os demais. Se a condicao ampla vier primeiro, o caso especifico vira codigo morto.
+- Solucao: Ordenei os testes sempre do mais urgente e restrito para o mais generico (concluida primeiro, depois prioridade 1 com prazo curto, depois prioridade 1 geral).
+- Licao: Em regras de negocio com multiplas faixas e condicoes encadeadas, a ordem de checagem define o comportamento correto da aplicacao.
