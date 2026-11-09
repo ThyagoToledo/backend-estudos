@@ -56,6 +56,11 @@ backend-estudos/
 |   |-- d04_caixa.py            # Dia 04: Exercicio N4 - Simulador de caixa eletronico
 |   |-- d04_imc.py              # Dia 04: Exercicio N2 - Calculo e classificacao de IMC
 |   |-- d04_triagem.py          # Dia 04: Pratica principal - Triagem de tarefas
+|   |-- d05_menu.py             # Dia 05: Pratica principal - Menu interativo com while
+|   |-- d05_repeat.py           # Dia 05: Exercicio N1 - Contagem com range
+|   |-- d05_segredo.py          # Dia 05: Exercicio N4 - Jogo de adivinhar o segredo
+|   |-- d05_sum_number.py       # Dia 05: Exercicio N2 - Soma de numeros ate zero
+|   |-- d05_tabuada.py          # Dia 05: Exercicio N3 - Tabuadas simples e aninhadas
 |   `-- d07_calculadora_final.py
 |-- semana-02/                  # Estruturas de dados, funcoes e POO
 |-- semana-03/                  # Modelagem e consultas SQL (pratica.sql)
